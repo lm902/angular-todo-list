@@ -1,0 +1,7 @@
+:host {
+  display: contents;
+}
+.completed {
+  text-decoration: line-through;
+  color: #777;
+}

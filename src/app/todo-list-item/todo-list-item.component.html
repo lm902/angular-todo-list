@@ -1,0 +1,5 @@
+<li [ngClass]="classes">
+  <input type="checkbox" [(ngModel)]="item.completed" (change)="updateClasses()" />
+  {{item.content}}
+  <button (click)="todoListService.removeItem(item)">-</button>
+</li>
